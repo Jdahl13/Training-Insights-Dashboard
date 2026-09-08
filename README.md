@@ -1,4 +1,3 @@
-# Providing daily insights with regards to current fitness and daily weather to help with decision making around daily activity
+# Training Insights Dashboard
 
-Will be updated as this idea progresses. 
-So stay tuned!
+Dashboard that turns raw API data from Strava and weather into daily activity insights. Built as part of a transition from sales into a more technical role.
