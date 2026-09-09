@@ -15,6 +15,15 @@ Originally considered pulling directly from Apple Health or Garmin but Apple Hea
 ### Discovered Strava API is no longer free
 Was told it was free but discovered as of 6/2026 access requires a paid subscription. I thought about pivoting to another option, but decided to pay the monthly fee with developing this project.
 
+### Testing auth manually via curl before writing code
+
+Before writing any app code, I tested each piece of the auth chain 
+independently via curl: verified the access token against the `/athlete` 
+endpoint, then verified the refresh token by exchanging it for a new access 
+token. This confirmed the Client ID, Secret, access token, and refresh token 
+all worked correctly before introducing app code as a second variable to 
+debug.
+
 ## What's Next
 
-Register app with Strava to begin development and get the OAuth flow working.
+Pull and inspect real athlete data from Stravs 'athlete/activities' endpoint.
