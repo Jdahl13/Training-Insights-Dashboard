@@ -36,6 +36,14 @@ authorization code for a new token pair.
 
 When re-running the browser authorization, I was initially thown off by the localhost error I was getting, but after review I realized that was to be expected. 
 
+### Formatting raw API responses for readability
+
+Raw JSON from curl responses is hard to read as a single unbroken line in 
+the terminal. Piped output through Python's built-in `json.tool` module to 
+pretty-print it, saved the result to a JSON file, and opened it in VS Code 
+for easier inspection of field names, nesting, and null values before 
+writing any parsing logic.
+
 ## What's Next
 
 Pull and inspect real athlete data from Stravs 'athlete/activities' endpoint.
