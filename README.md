@@ -24,6 +24,18 @@ token. This confirmed the Client ID, Secret, access token, and refresh token
 all worked correctly before introducing app code as a second variable to 
 debug.
 
+### Missing OAuth scope for activity data
+
+After successfully testing my access and refresh tokens, requests to 
+`/athlete/activities` failed with a `missing activity:read_permission` 
+error. The original authorization only requested the `read` scope, not 
+`activity:read`. Resolved by re-running the browser authorization step with 
+an expanded scope (`read,activity:read`) and `approval_prompt=force` to 
+ensure Strava re-prompted for the new permission, then exchanging the fresh 
+authorization code for a new token pair. 
+
+When re-running the browser authorization, I was initially thown off by the localhost error I was getting, but after review I realized that was to be expected. 
+
 ## What's Next
 
 Pull and inspect real athlete data from Stravs 'athlete/activities' endpoint.
