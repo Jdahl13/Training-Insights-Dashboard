@@ -46,4 +46,4 @@ writing any parsing logic.
 
 ## What's Next
 
-Pull and inspect real athlete data from Stravs 'athlete/activities' endpoint.
+Inspect real athlete data from Stravs 'athlete/activities' endpoint. Come up with 3 things to track against
