@@ -52,6 +52,10 @@ over time). Reframed to track weekly active minutes against the CDC's
 2 points/minute for running, 1 point/minute for walking or hiking. The 2 points/minute is based on CDC's guidelines of 75 min of vigorous activity. Instead of scoring individually, the 2 points/min allows tracing vs the 150 min benchmark only. This ties the dashboard to a concrete external benchmark and my own 
 return-to-running goals, rather than generic stats with no reference point.
 
+### Tech Stack considerations
+
+I was thinking of going to node.js/express/react since its the more commonly used, but I decided to use python+flask since I have previous python experience from my software engineering coursework. The core skills this project is meant to 
+demonstrate API integration, OAuth, data transformation are language-agnostic, so prioritizing familiarity over stack popularity lets me focus on relearning coding fluency rather than a framework and language simultaneously.
 ## What's Next
 
 Inspect real athlete data from Stravs 'athlete/activities' endpoint. Come up with 3 things to track against
