@@ -44,6 +44,15 @@ pretty-print it, saved the result to a JSON file, and opened it in VS Code
 for easier inspection of field names, nesting, and null values before 
 writing any parsing logic.
 
+### Reframing to CDC-benchmarked activity scoring
+
+Originally planned generic fitness insights (weekly mileage trends, pace 
+over time). Reframed to track weekly active minutes against the CDC's 
+150-minute weekly activity recommendation, with a simple scoring system: 
+2 points/minute for running, 1 point/minute for walking or hiking. This 
+ties the dashboard to a concrete external benchmark and my own 
+return-to-running goals, rather than generic stats with no reference point.
+
 ## What's Next
 
 Inspect real athlete data from Stravs 'athlete/activities' endpoint. Come up with 3 things to track against
