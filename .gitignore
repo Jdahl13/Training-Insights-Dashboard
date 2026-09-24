@@ -1,3 +1,5 @@
 .env
 *.env
 journal.md
+venv/
+__pycache__/

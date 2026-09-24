@@ -58,4 +58,5 @@ I was thinking of going to node.js/express/react since its the more commonly use
 demonstrate API integration, OAuth, data transformation are language-agnostic, so prioritizing familiarity over stack popularity lets me focus on relearning coding fluency rather than a framework and language simultaneously.
 ## What's Next
 
-Inspect real athlete data from Stravs 'athlete/activities' endpoint. Come up with 3 things to track against
+Build the scoring/weekly-grouping logic as a standalone Python function, 
+tested against saved activity data, before wiring it into a Flask route.
