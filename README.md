@@ -49,7 +49,7 @@ writing any parsing logic.
 Originally planned generic fitness insights (weekly mileage trends, pace 
 over time). Reframed to track weekly active minutes against the CDC's 
 150-minute weekly activity recommendation, with a simple scoring system: 
-2 points/minute for running, 1 point/minute for walking or hiking. The 2 points/minute is based on CDC's guidelines of 75 min of vigorous activity. Instead of scoring individually, the 2 points/min allows tracing vs the 150 min benchmark only. This ties the dashboard to a concrete external benchmark and my own 
+2 points/minute for running, 1 point/minute for walking or hiking. The 2 points/minute is based on CDC's guidelines of 75 min of vigorous activity. Instead of scoring individually, the 2 points/min allows tracking vs the 150 min benchmark only. This ties the dashboard to a concrete external benchmark and my own 
 return-to-running goals, rather than generic stats with no reference point.
 
 ### Tech Stack considerations
